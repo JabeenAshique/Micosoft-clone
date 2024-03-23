@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+
+}
+.navbar{
+
+    height: 55px;
+    padding-left: 92px;
+    display: flex;
+    color: #5f5f5f ;
+
+}
+.logo{
+    width: 137px;
+    height: 39px;
+    padding-top:16px;
+    margin-top:1px ;
+}
+.logoimg{
+    width: 110px;
+    height: 22px;
+    background-image: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31");
+    background-size: cover;
+}
+/* box2 */
+.nav-items{
+    width: 53%;
+    display: flex;
+    font-size: 0.75rem;
+}
+.nav-items ul{
+    display:flex;
+    padding-left: 0px;
+    list-style-type: none;
+   
+}
+.nav-items li{
+    padding-top: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.microsoft{
+    width: 104px;
+    height: 49px
+}
+.Teams{
+    width: 53px;
+    height: 49px;
+}
+.Copilot{
+    width: 62px;
+    height: 49px;
+}
+.Windows{
+    width: 68px;
+    height: 49px;
+}
+.Surflice{
+    width: 78px;
+    height: 49px;
+}
+.Xbox{
+    width: 55px;
+    height: 49px;
+}
+.Support{
+    width: 68px;
+    height: 49px;
+}
+
+.border{
+    border: none;
+}
+.border:hover{
+    border-bottom: 1.25px solid black;;
+}
+.nav-items a{
+    text-decoration: none;
+    color: #000;
+}
+/* box3 */
+.nav-right-items{
+    width: 500px;
+    height: 54px;
+    display: flex;
+    margin-left: 150px;
+    align-items: center;
+    font-size: 0.75rem;
+}
+.nav-right-items a{
+ text-decoration: none;
+ color: #000;
+
+}
+.options select {
+    border: none; 
+  }
+.search{
+    padding-left: 1rem;
+    display: flex;
+}
+.search i{
+    padding-left: 4px;
+    width: 10px;
+    height: 12px;
+    color: #5f5f5f;
+    
+}
+.cart{
+    padding-left:1rem;
+    display: flex;
+}
+.cart i{
+    padding-left: 4px;
+    width: 10px;
+    height: 12px;
+    color: #5f5f5f;
+}
+.sign-In{
+    padding-left: 1rem;
+    display: flex;
+}
+.sign-in-icon {
+    padding-left: 5px;
+    width: 16px;
+    height: 18px;
+    color: #5f5f5f;
+}
+/* Banner_section */
+.banner_section{
+    height: 530px;
+    width:100%;
+    
+}
+.banner_image{
+    height: 465px;
+    width: 100%;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-M1-Family-02-1:VP5-1920x600");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.banner_image_items{
+    margin-left: 700px;
+    position: relative;
+    bottom: 150px;
+}
+.banner_image_items h1,p{
+    margin-bottom: 20px;
+}
+.banner_image_items p{
+    font-size: 1rem;
+}
+.banner_image_items button{
+    padding: 10px 12px 10px 12px;
+    margin: 8px 0px 8px 0px;
+    background-color: #0067b8;
+    color: white;
+    border: none;
+}
+.banner_bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12px;
+}
+.banner_bottom_icons i{
+   
+    padding-left:12px;
+    font-size:0.75rem;
+}
+/* pannel1 */
+
+.panel1-content{
+    width: 100%;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+
+    
+}
+.box1{
+    margin: 16px 24px 16px 24px;
+    width: 196px;
+    height: 72px;
+}
+.microsoft365{
+    position: relative;
+    left: 80px;
+    width: 40px;
+    height: 40px;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Microsoft-365?wid=40&hei=40");
+}
+.box2{
+   
+    margin: 16px 24px 16px 24px;
+    width: 78px;
+    height: 72px;
+}
+.xbox
+{
+    position: relative;
+    left: 10px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Xbox-Games-Consoles?wid=40&hei=40");
+}
+.box3{
+    
+    margin: 16px 24px 16px 24px;
+    width: 114px;
+    height: 72px;
+}
+.microsoft365-2{
+    position: relative;
+    left: 30px;
+    width: 40px;
+    height: 40px;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Microsoft-365?wid=40&hei=40");
+}
+.box4{
+    margin: 16px 24px 16px 24px;
+width: 170px;
+height: 72px;
+}
+.surfece-device{
+    position: relative;
+    left: 50px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Surface-Devices?wid=40&hei=40");
+}
+/* pannel2 */
+.pannel2{
+    width: 100%;
+    height: 514px;
+    display: flex;
+    justify-content: center;
+}
+.card-section{
+    width: 1300px;
+    height: 514px;
+    display: flex;
+}
+.card{
+    border: 2px transparent #ccc; 
+    box-shadow: 0 0 10px rgba(15, 15, 15, 0.1);
+}
+.card1{
+    
+    width: 300px;
+    height: 514px;
+    
+}
+
+.card2{
+    margin-left: 32px;
+    width: 300px;
+    height: 514px;
+    
+}.card3{
+    margin-left: 32px;
+    width: 300px;
+    height: 514px;
+   
+}.card4{
+    margin-left: 32px;
+    width: 300px;
+    height: 514px;
+   }
+.card-img{
+    width: 300px;
+    height: 215px;
+    background-size: contain;
+    }
+.card-body{
+    width: 300px;
+    height: 180px;
+    padding: 24px 24px 24px 0px;
+}
+.card-body h3 {
+    font-size: 1.8125rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 16px;
+}
+.card-body p{
+    margin-left: 20px;
+    text-align: left;
+}
+.card-footer {
+padding-left: 24px;   
+height: 79px;
+width: 300px;
+
+}
+.card-footer button{
+    padding: 10px 12px 10px 12px;
+    background-color: #0067b8;
+    color: white;
+    border: none;
+}
+/* pannel4 */
+.pannel4{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.pannel-img{
+    width: 1300px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-XSS-Hero-Xbox-Series-S:VP5-1596x600");
+    background-size: cover;
+}
+.pannel_image_items{
+  margin-left: 150px;
+}
+.pannel_image_items h1 {
+    font-size: 2.3125rem;
+    margin-bottom: 20px;
+}
+.pannel_image_items p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.pannel_image_items button{
+    padding: 10px 12px 10px 12px;
+    background-color: #0067b8;
+    color: white;
+    border: none;
+}
+/* Pannel5 */
+.pa-heading h2{
+    margin-bottom: 20px;
+    margin-left: 85px;
+    font-size: 2.3125rem;
+}
+.pannel5{
+    margin-bottom: 150px;
+}
+/* pannel6 */
+.pannel6{
+    width: 100%;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.pa-content{
+    width: 1300px;
+    height: 32px;
+    display: flex;
+}
+.pa-follow{
+    margin-right: .75rem;
+    vertical-align: middle;
+    display: inline;
+    font-size: 1rem;
+}
+.pa-icon{
+    vertical-align: middle;
+    width: 200px;
+    height: 32px;
+    
+}
+.pa-icon img{
+    width: 32px;
+    height: 32px;
+}
+/* footer */
+footer{
+    width: 100%;
+    height: 382px;
+    background-color: #f2f2f2;
+    padding-top: 28px;
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footpanel-heading{
+    color: #616161;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 36px 0 4px;
+    font-weight: 600;
+}
+.foot-panel1{
+    width: 1300px;
+    height: 382px;
+}
+.foot-panel1 ul{
+    list-style-type: none;
+}
+.foot-panel1 li{
+    color: #616161;
+    font-size: 11px;
+    line-height: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.footer-bottom{
+    background-color: #f2f2f2;
+
+}
+.foot-lang{
+    display: flex;
+   
+}
+.foot-lang i{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    color: #616161;
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
+.foot-lang p{
+    margin-left: 5px;
+    margin-bottom: 20px;
+    line-height: 16px;
+    font-size: 0.75rem;;
+
+}
+.foot-details ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 600px;
+}
+.foot-details li{
+    margin-left:10px;
+    font-size: 0.85rem;
+}
+
